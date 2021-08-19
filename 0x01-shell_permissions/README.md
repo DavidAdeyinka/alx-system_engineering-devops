@@ -1,0 +1,1 @@
+This project is about each script giving permission to users.
