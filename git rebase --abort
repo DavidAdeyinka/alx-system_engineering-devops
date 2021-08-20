@@ -1,0 +1,130 @@
+[33mcommit fbc372eff2c2ea82b8811b89e327292220689b9e[m[33m ([m[1;32mmaster[m[33m)[m
+Author: MahiTef <mahletteferi9@gmail.com>
+Date:   Fri Aug 20 05:09:53 2021 -0700
+
+    git in it
+
+[1mdiff --git a/#README.md# b/#README.md#[m
+[1mnew file mode 100644[m
+[1mindex 0000000..e69de29[m
+[1mdiff --git a/0-current_working_directory b/0-current_working_directory[m
+[1mnew file mode 100755[m
+[1mindex 0000000..0cad38b[m
+[1m--- /dev/null[m
+[1m+++ b/0-current_working_directory[m
+[36m@@ -0,0 +1,2 @@[m
+[32m+[m[32m#!/bin/bash[m
+[32m+[m[32mpwd -P[m
+[1mdiff --git a/0-current_working_directory~ b/0-current_working_directory~[m
+[1mnew file mode 100644[m
+[1mindex 0000000..e69de29[m
+[1mdiff --git a/0x00-shell_basics/100-lets_move b/0x00-shell_basics/100-lets_move[m
+[1mnew file mode 100755[m
+[1mindex 0000000..5d6acce[m
+[1m--- /dev/null[m
+[1m+++ b/0x00-shell_basics/100-lets_move[m
+[36m@@ -0,0 +1,2 @@[m
+[32m+[m[32m#!/bin/bash[m
+[32m+[m[32mmv src/*[A-Z]* /tmp/u/[m
+[1mdiff --git a/1-listit b/1-listit[m
+[1mnew file mode 100755[m
+[1mindex 0000000..98bee2d[m
+[1m--- /dev/null[m
+[1m+++ b/1-listit[m
+[36m@@ -0,0 +1,2 @@[m
+[32m+[m[32m#!/bin/bash[m
+[32m+[m[32mls[m
+[1mdiff --git a/1-listit~ b/1-listit~[m
+[1mnew file mode 100644[m
+[1mindex 0000000..14995e5[m
+[1m--- /dev/null[m
+[1m+++ b/1-listit~[m
+[36m@@ -0,0 +1 @@[m
+[32m+[m[32mls-a -P[m
+\ No newline at end of file[m
+[1mdiff --git a/10-back b/10-back[m
+[1mnew file mode 100755[m
+[1mindex 0000000..fdccc55[m
+[1m--- /dev/null[m
+[1m+++ b/10-back[m
+[36m@@ -0,0 +1,2 @@[m
+[32m+[m[32m#!/bin/bash[m
+[32m+[m[32mcd -[m
+[1mdiff --git a/10-back~ b/10-back~[m
+[1mnew file mode 100644[m
+[1mindex 0000000..e69de29[m
+[1mdiff --git a/11-lists b/11-lists[m
+[1mnew file mode 100755[m
+[1mindex 0000000..bc6c4fc[m
+[1m--- /dev/null[m
+[1m+++ b/11-lists[m
+[36m@@ -0,0 +1,2 @@[m
+[32m+[m[32m#!/bin/bash[m
+[32m+[m[32mls -la . .. /boot[m
+[1mdiff --git a/11-lists~ b/11-lists~[m
+[1mnew file mode 100644[m
+[1mindex 0000000..e69de29[m
+[1mdiff --git a/12-file_type b/12-file_type[m
+[1mnew file mode 100755[m
+[1mindex 0000000..6787573[m
+[1m--- /dev/null[m
+[1m+++ b/12-file_type[m
+[36m@@ -0,0 +1,2 @@[m
+[32m+[m[32m#!/bin/bash[m
+[32m+[m[32mfile /tmp/iamafile[m
+[1mdiff --git a/12-file_type~ b/12-file_type~[m
+[1mnew file mode 100644[m
+[1mindex 0000000..e69de29[m
+[1mdiff --git a/13-symbolic_link b/13-symbolic_link[m
+[1mnew file mode 100755[m
+[1mindex 0000000..4bec017[m
+[1m--- /dev/null[m
+[1m+++ b/13-symbolic_link[m
+[36m@@ -0,0 +1,2 @@[m
+[32m+[m[32m#!/bin/bash[m
+[32m+[m[32mln -s /bin/ls __ls__[m
+[1mdiff --git a/13-symbolic_link~ b/13-symbolic_link~[m
+[1mnew file mode 100644[m
+[1mindex 0000000..e69de29[m
+[1mdiff --git a/14-copy_html b/14-copy_html[m
+[1mnew file mode 100755[m
+[1mindex 0000000..6faad51[m
+[1m--- /dev/null[m
+[1m+++ b/14-copy_html[m
+[36m@@ -0,0 +1,2 @@[m
+[32m+[m[32m#!/bin/bash[m
+[32m+[m[32mcp -u * .html ..[m
+[1mdiff --git a/14-copy_html~ b/14-copy_html~[m
+[1mnew file mode 100755[m
+[1mindex 0000000..02111f6[m
+[1m--- /dev/null[m
+[1m+++ b/14-copy_html~[m
+[36m@@ -0,0 +1,2 @@[m
+[32m+[m[32m#!/bin/bash[m
+[32m+[m[32mcp -u *.html ..[m
+[1mdiff --git a/2-bring_me_home b/2-bring_me_home[m
+[1mnew file mode 100755[m
+[1mindex 0000000..fe65e23[m
+[1m--- /dev/null[m
+[1m+++ b/2-bring_me_home[m
+[36m@@ -0,0 +1,2 @@[m
+[32m+[m[32m#!/bin/bash[m
+[32m+[m[32mcd[m
+[1mdiff --git a/2-bring_me_home~ b/2-bring_me_home~[m
+[1mnew file mode 100644[m
+[1mindex 0000000..e69de29[m
+[1mdiff --git a/3-listfiles b/3-listfiles[m
+[1mnew file mode 100755[m
+[1mindex 0000000..8f1e103[m
+[1m--- /dev/null[m
+[1m+++ b/3-listfiles[m
+[36m@@ -0,0 +1,2 @@[m
+[32m+[m[32m#!/bin/bash[m
+[32m+[m[32mls -l[m
+[1mdiff --git a/3-listfiles~ b/3-listfiles~[m
+[1mnew file mode 100644[m
+[1mindex 0000000..e69de29[m
+[1mdiff --git a/4-listmorefiles b/4-listmorefiles[m
+[1mnew file mode 100755[m
+[1mindex 0000000..681d1f0[m
+[1m--- /dev/nu
