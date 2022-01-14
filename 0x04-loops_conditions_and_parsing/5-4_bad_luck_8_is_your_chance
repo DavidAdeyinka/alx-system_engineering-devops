@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+#prints a string 10 times
+x=0
+while [ $x != 10 ]
+do
+  if [ $x = 4 ]
+  then
+    echo "bad luck"
+  elif [ $x = 8 ]
+  then
+    echo "good luck"
+  else
+    echo "Best School"
+  fi
+  x=$(( x + 1 ))
+done
+
